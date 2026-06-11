@@ -1,0 +1,68 @@
+DETAILS:
+{
+  "local": {
+    "_id": 13,
+    "name": "Rintaro and Kaoruko",
+    "link": "src=https://anipub.xyz/video/141679/sub",
+    "title": "\"\"",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/a/a5/Kaoru_Hana_wa_Rin_to_Saku_volume_1_cover.jpg",
+    "type": "iframe",
+    "ep": [
+      {
+        "link": "src=https://anipub.xyz/video/141792/sub"
+      },
+      {
+        "link": "src=https://anipub.xyz/video/141999/sub"
+      },
+      {
+        "link": "src=https://anipub.xyz/video/142894/sub"
+      },
+      {
+        "link": "src=https://anipub.xyz/video/143117/sub"
+      },
+      {
+        "link": "src=https://anipub.xyz/video/143405/sub"
+      },
+      {
+        "name": "Episode",
+        "link": "src=https://anipub.xyz/video/143865/sub",
+        "title": "\"\""
+      },
+      {
+        "link": "src=https://gogoanime.com.by/streaming.php?id=the-fragrant-flower-blooms-with-dignity-19789&ep=144174&server=hd-1&type=sub"
+      },
+      {
+        "link": "src=https://gogoanime.com.by/streaming.php?id=the-fragrant-flower-blooms-with-dignity-19789&ep=144379&server=hd-1&type=sub"
+      },
+      {
+        "link": "src=https://gogoanime.com.by/streaming.php?id=the-fragrant-flower-blooms-with-dignity-19789&ep=144527&server=hd-1&type=sub"
+      },
+      {
+        "link": "src=https://gogoanime.com.by/streaming.php?id=the-fragrant-flower-blooms-with-dignity-19789&ep=144731&server=hd-1&type=sub"
+      },
+      {
+        "link": "src=https://gogoanime.com.by/streaming.php?id=the-fragrant-flower-blooms-with-dignity-19789&ep=144930&server=hd-1&type=sub"
+      },
+      {
+        "name": "EP 13",
+        "link": "src=https://gogoanime.com.by/streaming.php?id=the-fragrant-flower-blooms-with-dignity-19789&ep=145276&server=hd-1&type=sub"
+      }
+    ],
+    "createdAt": "2025-08-16T20:28:38.056Z",
+    "updatedAt": "2026-02-28T15:41:09.059Z",
+    "__v": 0,
+    "finder": "the-fragrant-flower-blooms-with-dignity"
+  }
+}
+
+
+
+
+SEARCH:
+
+{
+  "Name": "The Fragrant Flower Blooms with Dignity",
+  "Id": 13,
+  "finder": "the-fragrant-flower-blooms-with-dignity",
+  "Image": "https://upload.wikimedia.org/wikipedia/en/a/a5/Kaoru_Hana_wa_Rin_to_Saku_volume_1_cover.jpg"
+}

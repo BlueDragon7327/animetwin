@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="watch-page">
+    <div class="watch-container">
+        <div class="watch-player-wrap" id="playerWrap">
+            <div class="loading">Loading player</div>
+        </div>
+        <div class="watch-info" id="watchInfo"></div>
+        <div class="watch-episodes" id="watchEpisodes">
+            <h3>Episodes</h3>
+            <div class="episodes-grid" id="episodesGrid"></div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const ANIME_ID = "{{ anime_id }}";
+    const CURRENT_EP = {{ ep }};
+</script>
+{% endblock %}

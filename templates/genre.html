@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="detail-page">
+    <div class="section" style="padding-top: 100px;">
+        <div class="section-header">
+            <h2 class="section-title">Browse by Genre</h2>
+        </div>
+        <div class="genre-tags" id="genreTags">
+            <span class="genre-tag" data-genre="action">Action</span>
+            <span class="genre-tag" data-genre="romance">Romance</span>
+            <span class="genre-tag" data-genre="comedy">Comedy</span>
+            <span class="genre-tag" data-genre="fantasy">Fantasy</span>
+            <span class="genre-tag" data-genre="drama">Drama</span>
+            <span class="genre-tag" data-genre="harem">Harem</span>
+            <span class="genre-tag" data-genre="ecchi">Ecchi</span>
+            <span class="genre-tag" data-genre="school">School</span>
+            <span class="genre-tag" data-genre="supernatural">Supernatural</span>
+            <span class="genre-tag" data-genre="magic">Magic</span>
+            <span class="genre-tag" data-genre="adventure">Adventure</span>
+            <span class="genre-tag" data-genre="shounen">Shounen</span>
+            <span class="genre-tag" data-genre="horror">Horror</span>
+            <span class="genre-tag" data-genre="mecha">Mecha</span>
+            <span class="genre-tag" data-genre="slice-of-life">Slice of Life</span>
+            <span class="genre-tag" data-genre="thriller">Thriller</span>
+        </div>
+        <h3 class="section-title" id="genreResultTitle" style="margin-bottom:16px;">Top Rated</h3>
+        <div class="grid" id="genreGrid"></div>
+        <div class="pagination" id="genrePagination"></div>
+    </div>
+</div>
+
+<script>
+    const GENRE_PARAM = "{{ g }}";
+    const SORT_PARAM = "{{ sort }}";
+</script>
+{% endblock %}

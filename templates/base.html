@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeTwin - Stream Anime Free</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-left">
+            <a href="/" class="nav-logo">AnimeTwin</a>
+            <ul class="nav-links">
+                <li><a href="/" class="active">Home</a></li>
+                <li><a href="/genre">Genres</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="sub-dub-toggle">
+                <button data-sd="sub" onclick="setSubDub('sub')">SUB</button>
+                <button data-sd="dub" onclick="setSubDub('dub')">DUB</button>
+            </div>
+            <button class="spotlight-btn" onclick="openSpotlight()">
+                &#x1F50D; <span>Search</span>
+                <span class="kbd">&#x2318;K</span>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
